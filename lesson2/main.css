@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.target {
+    /*height: шифт альт вгору вниз  пер100px;*/
+    /*padding: зі всіх сторін30px;*/
+    /*padding: 10px 20px 30px;*/
+    /*border-radius: 50%;*/
+    /*border: 10px solid #6871c2;*/
+    /*overflow: hidden;*/
+    background: #c0b8b8;
+    height: 200px;
+    width: 400px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border-bottom: 10px solid coral;
+    border-radius: 10px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    margin: 100px;
+    box-shadow: black 10px 10px 10px 10px;
+    transition: 2s;
+}
+
+.target:hover{
+    height: 400px;
+    transition: 600ms;
+}
+

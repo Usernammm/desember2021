@@ -23,7 +23,7 @@ body {
     transition: 2s;
 }
 
-.target:hover{
+.target:hover {
     height: 400px;
     transition: 600ms;
 }
